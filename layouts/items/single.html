@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+    <article class="single">
+        <section>
+            {{ $site := urls.Parse .Params.ItemUrl }}
+            <p class="item__urls"><a href="{{ .Params.ItemUrl }}">{{ .Title }}</a> <span class="item__siteurl">(<a href="/sites/{{ replace $site.Host "www." "" }}">{{ replace $site.Host "www." "" }}</a>)</span></p>
+            <p class="item__meta">
+                <span>{{ .PublishDate.Format "2006-01-02" }}</span>
+                {{ range .Params.tags }}
+                    <a class="item__tag" href="/tags/{{- replace . " " "-" -}}">{{- . -}}</a>
+                {{- end }}
+            </p>
+        </section>
+        <section>
+            {{ if ne (trim .Content " ") "" }}
+            {{ .Content }}
+            {{ end }}
+        </section>
+    </article>
+{{ partial "footer.html" . }}

@@ -1,0 +1,9 @@
+baseURL = "http://headline.redmine.jp/"
+languageCode = "ja-jp"
+title = "Redmineヘッドライン"
+theme = "hugonews"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    site = "sites"
