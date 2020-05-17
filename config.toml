@@ -2,6 +2,7 @@ baseURL = "http://headline.redmine.jp/"
 languageCode = "ja-jp"
 title = "Redmineヘッドライン — プロジェクト管理ツールRedmineの今の話題をまとめて紹介"
 theme = "hugonews"
+Paginate = 20
 
 [taxonomies]
     tag = "tags"
