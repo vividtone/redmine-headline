@@ -9,14 +9,9 @@
                     <a class="item__tag" href="/tags/{{- replace . " " "-" -}}">{{- . -}}</a>
                 {{- end }}
             </p>
-            <!-- はてなブログカード -->
-            <iframe
-            class="hatenablogcard"
-            style="width:100%;height:155px;max-width:680px;"
-            title="{{ .Title }}"
-            src="https://hatenablog-parts.com/embed?url={{ .Params.ItemUrl }}"
-            width="300" height="150" frameborder="0" scrolling="no">
-          </iframe>
+            <!-- embedly -->
+            <a class="embedly-card" href="{{ .Params.ItemUrl }}">{{ .Title }}</a>
+            <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
         </section>
         <section>
             {{ if ne (trim .Content " ") "" }}
