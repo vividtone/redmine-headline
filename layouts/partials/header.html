@@ -16,6 +16,10 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">  -->
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
     <title>{{ .Site.Title }}</title>
+    <!-- RSS -->
+    {{ range .AlternativeOutputFormats -}}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
 </head>
 <body>
 <header id="header">
