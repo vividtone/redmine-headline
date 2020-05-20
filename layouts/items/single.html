@@ -9,14 +9,16 @@
                     <a class="item__tag" href="/tags/{{- replace . " " "-" -}}">{{- . -}}</a>
                 {{- end }}
             </p>
-            <!-- embedly -->
-            <a class="embedly-card" href="{{ .Params.ItemUrl }}">{{ .Title }}</a>
-            <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
         </section>
         <section>
             {{ if ne (trim .Content " ") "" }}
-            {{ .Content }}
+            <div style="margin: 1em 0;">{{ .Content }}</p>
             {{ end }}
+            <!-- embedly -->
+            <div style="margin-top: 2em;">
+                <a class="embedly-card" href="{{ .Params.ItemUrl }}">{{ .Title }}</a>
+                <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+            </div>
         </section>
     </article>
 {{ partial "footer.html" . }}

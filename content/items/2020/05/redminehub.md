@@ -7,3 +7,4 @@ tags: ["paid_stuff", "theme", "plugin"]
 draft: false
 ---
 
+Redmine Hub is the Marketplace for professional plugins, themes, services, jobs and experts around the Redmine ecosystem.

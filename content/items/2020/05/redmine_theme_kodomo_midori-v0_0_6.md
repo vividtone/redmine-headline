@@ -7,3 +7,4 @@ tags: ["theme"]
 draft: false
 ---
 
+Redmine theme for kids and children green version.

@@ -7,3 +7,4 @@ tags: ["plugin"]
 draft: false
 ---
 
+a redmine plugin which provides intra-Redmine Like/Fav reactions
