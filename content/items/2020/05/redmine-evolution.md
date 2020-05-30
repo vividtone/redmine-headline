@@ -3,7 +3,7 @@ title: "Redmine evolution theme"
 date: 2020-05-28T15:26:16+09:00
 itemurl: "https://redmine-evolution.com/"
 sites: ""
-tags: ["theme"]
+tags: ["theme", "paid_stuff"]
 draft: false
 ---
 
