@@ -2,7 +2,7 @@
     <article class="single">
         <section>
             {{ $site := urls.Parse .Params.ItemUrl }}
-            <p class="item__urls"><a href="{{ .Params.ItemUrl }}">{{ .Title }}</a> <span class="item__siteurl">({{ replace $site.Host "www." "" }})</span></p>
+            <p class="item__urls"><a href="{{ .Params.ItemUrl }}"><strong>{{ .Title }}</strong></a> <span class="item__siteurl">({{ replace $site.Host "www." "" }})</span></p>
             <p class="item__meta">
                 <span>{{ .PublishDate.Format "2006-01-02" }}</span>
                 {{ range .Params.tags }}
