@@ -17,13 +17,15 @@
             {{ end }}
 
             <!-- はてなブログカード -->
+            {{ if ne .Params.Card false }}
             <iframe
                 class="hatenablogcard"
                 style="width:100%;height:155px;max-width:680px;"
                 title="{{ .Title }}"
                 src="https://hatenablog-parts.com/embed?url={{ .Params.ItemUrl }}"
                 width="300" height="150" frameborder="0" scrolling="no">
-            </iframe>            
+            </iframe>
+            {{ end }}
         </section>
     </article>
 {{ partial "footer.html" . }}
