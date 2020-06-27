@@ -3,7 +3,7 @@ title: "arcli - Awesome Redmine CLI"
 date: 2020-06-03T18:28:13+09:00
 itemurl: "https://github.com/mightymatth/arcli"
 sites: ""
-tags: []
+tags: ["utility"]
 draft: false
 ---
 

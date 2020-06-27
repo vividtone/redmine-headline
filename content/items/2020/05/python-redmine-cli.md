@@ -3,7 +3,7 @@ title: "Python で Redmine CLI ツールを作ってみる！"
 date: 2020-05-25T21:40:43+09:00
 itemurl: "https://mmll.hatenablog.com/entry/category/tools/redmine/python-redmine-cli"
 sites: ""
-tags: []
+tags: ["utility"]
 draft: false
 ---
 
