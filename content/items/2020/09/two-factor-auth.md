@@ -12,4 +12,4 @@ card: false
 
 機能はRedmineのクラウドサービス「[Planio](https://plan.io/ja/)」で提供されている二要素認証とほぼ同等で、このパッチはPlanioから提供された。
 
-<a href="https://www.redmine.org/issues/1237"><img src="../two-factor-auth.md"></a>
+<a href="https://www.redmine.org/issues/1237"><img srcset="../two-factor-auth.png 2x" style="margin: 2em 0; border: 1px solid grey;"></a>
