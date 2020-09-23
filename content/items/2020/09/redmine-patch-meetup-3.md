@@ -1,7 +1,7 @@
 ---
 title: "Redmineパッチ会 #3"
 date: 2020-09-11T11:40:24+09:00
-itemurl: "https://redmine-patch.connpass.com/event/186884/"
+itemurl: "https://headline.redmine.jp/items/2020/09/redmine-patch-meetup-3/"
 sites: ""
 tags: ["event"]
 draft: false
