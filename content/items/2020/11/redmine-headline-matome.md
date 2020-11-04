@@ -1,7 +1,7 @@
 ---
-title: "Redmineヘッドライン 月刊まとめ（2020年9月）"
+title: "Redmineヘッドライン 月刊まとめ（2020年10月）"
 date: 2020-11-02T17:00:00+09:00
-itemurl: ""
+itemurl: "http://blog.redmine.jp/articles/headline-matome/2020/10/"
 sites: ""
 tags: []
 draft: false
