@@ -1,6 +1,6 @@
 ---
 title: "Redmineパッチ会オンライン #7"
-date: 2020-12-11T11:40:51+09:00
+date: 2021-01-11T15:50:00+09:00
 itemurl: "https://redmine-patch.connpass.com/event/200575/"
 sites: ""
 tags: ["event"]
