@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Project Connector"
 date: 2021-02-14T16:14:21+09:00
-itemurl: "Microsoft Project Connector"
+itemurl: "https://github.com/conveniencable/microsoft_project_connector"
 sites: ""
 tags: []
 draft: false
